@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Charm:400,700|Crimson+Text|Montserrat:200,400');
+
+:root {
+    /* Override Variables */
+    --font-family-sans-serif: Montserrat, -apple-system,
+      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+      Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol';
+    --gray-dark: #404040;
+
+
+    /* Page Variables */
+    --font-family-serif: "Crismon Text", serif;
+    --font-family-handwritting: "Charm";
+    --color-text: var(--gray-dark);
+    --font-family-text: var(--font-family-serif);
+    --crimson: rgb(130,36,51);
+    --navy-blue: rgb(0,33,71);
+  }
+
+  .family-sans {
+    font-family: var(--font-family-sans-serif);
+  }
+
+  .style-brand{
+      font-family: var(--font-family-sans-serif );
+      font-weight: 400;
+    }
+
+  body {
+    font-family: var(--font-family-text);
+    color: var(--color-text);
+    font-weight: 200;
+  }
+
+  .site-nav {
+    background: var(--navy-blue);
+    font-weight: 400;
+  }
+
+  .site-header{
+      background: white;
+      min-height: 50vh;
+  }
+
+  .site-header .page-section-text {
+    font-size: 1.2em;
+  }
+  .site-header .layout-home {
+    min-height: 50vh;
+  }
+
+  .site-header .page-section-title {
+    font-size: 3em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+  }
+
+
+  #about {
+    background: var(--crimson);
+  }
+
+  #oferta {
+    background: var(--navy-blue);
+  }
+
+  .page-section-header .page-section-title {
+    font-size: 4em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+  }
+
+  .page-section-header .page-section-text {
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+
+  .layout-social .layout-icon{
+    font-size: 2em;
+  }
+
+  .layout-image{
+    max-width: 400px;
+  }
+
+  .layout-media .layout-title {
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    font-size: 1.6em;
+  }
+
+  .site-footer{
+    background: var(--navy-blue);
+  }
